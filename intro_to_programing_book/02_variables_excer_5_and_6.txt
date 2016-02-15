@@ -1,0 +1,15 @@
+# Exercise 5
+
+The first program will work and out put the number 3
+
+the second program will give the following error:
+
+NameError: undefined local variable or method `x' for main:Object
+  from (irb):6
+  from /Users/macuser/.rvm/rubies/ruby-2.2.3/bin/irb:15:in `<main>'
+
+  It is giving the above error because x was used within the do/end block but it hadn't been defined outside of the block. 
+
+  # Exercise 6
+
+  a mistake similar to the one above was made in that "shoes" might have been used in a block but not defined outside of the block.
